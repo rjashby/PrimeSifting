@@ -1,5 +1,5 @@
 using System;
-using PrimeSifting.Models;
+using PrimeSifting;
 
 namespace PrimeSifting
 {
@@ -7,7 +7,7 @@ namespace PrimeSifting
   {
     public static void Main()
     {
-      
+
     }
   }
 }
