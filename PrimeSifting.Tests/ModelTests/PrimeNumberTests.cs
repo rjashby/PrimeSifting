@@ -4,9 +4,13 @@ using PrimeSifting;
 namespace PrimeSifting.Tests 
 {
   [TestClass]
-  public class PrimeNumber
+  public class PrimeNumberTests
   {
     [TestMethod]
-    public void ListCreate_
+    public void CreateList_IsListThere_True()
+    {
+      PrimeNumber number = new PrimeNumber();
+      Assert.AreEqual(List, number.CreateList(6));
+    }
   }
 }
